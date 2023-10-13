@@ -11,5 +11,6 @@ router.get('/logout',AuthController.logout)
 router.get('/about',AuthController.about)
 router.get('/contact',AuthController.contact)
 router.get('/services',AuthController.services)
+router.get('/map',AuthController.map)
 
 module.exports = router

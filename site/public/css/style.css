@@ -149,6 +149,14 @@ body{
   border-bottom: 2px solid var(--white);
   width: 5.5rem;
 }
+
+.map{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+}
 .message{
   padding: 1rem;
   color: var(--green-dark);

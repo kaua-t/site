@@ -75,7 +75,7 @@ module.exports = class AuthController{
   static async logout (request,response){
     request.session.destroy()
     return response.redirect('/login')
-} 
+  } 
   static about(request,response){
     return response.render('screens/about')
   }
@@ -84,5 +84,8 @@ module.exports = class AuthController{
   }
   static services(request,response){
     return response.render('screens/services')
+  }
+  static map(request,response){
+    return response.render('screens/map')
   }
 }
